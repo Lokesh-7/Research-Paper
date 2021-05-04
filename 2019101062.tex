@@ -1,0 +1,101 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Institute Vaccine Management Solution\\}
+
+\author{
+\IEEEauthorblockN{Lokesh Paidi}
+\IEEEauthorblockA{Roll.No : 2019101062 \\
+\textit{IIIT Hyderabad}\\
+lokesh.paidi@students.iiit.ac.in}
+}
+
+\maketitle
+
+\begin{abstract}
+A proper vaccine management needs a portal to be designed for Registration and Slot booking for vaccination by Recipients \& availability of vaccines and slots to be up to date maintained by Healthcare Providers. And Firstly, allowing elder people(45+) to get vaccinated by registering in the portal. And then, allowing the remaining people aged(18-45) to get vaccinated. And a dashboard page maintaining Number of Vaccine doses administered and Details about vaccine. And the Healthcare Providers should take necessary steps to make people educated about getting vaccinated \& remove fear about vaccines in people.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Introduction, Literature Review, System Architecture, Conclusion and Future Work, References
+\end{IEEEkeywords}
+
+\section{Introduction}
+Amid the Second Wave, Complete vaccination is the only way to be safe from this infectious disease and to run the campus activities as usually. Vaccination helps in saving people's lives. There are Faculty, Staff, Students on campus, manually managing the vaccination within a short period will be more complex. So, A proper vaccine management solution is to be designed for effective management of Mass Vaccination. Improper vaccine management may lead to vaccine wastage and delay in vaccination etc. The delay in vaccination may lead to losing some lives or some getting infected.
+\\
+We Schedule the staff(volunteers) for working in vaccine distribution. We Divide the patients into dangerous, not very dangerous, fine, normal. And then we vaccinate based on the priority list of the patients. We need online registration to avoid mass crowd at vaccination centre and Clarity on Vaccination.
+
+\section{Literature Review}
+Requirements/ solutions and solutions to the problem from resources and research taking place now.
+\subsection{Vaccine Tracking}
+We need to track data of a patient’s journey efficiently starting from their registration date, appointment date, and then the first dosage date, follow ups for second dose, second dosage date.
+\subsection{Supply management}
+The number of vaccines received from the supplier and then restricting the maximum no.of registrations for that day.
+\subsection{Staff Recruiting}
+We recruit volunteers for vaccination drive. And Schedule them according to slots.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=110mm,scale=0.5]{fig3.png}}
+\caption{Vaccination Procedure}
+\label{fig3}
+\end{figure}
+
+\section{System Architecture}
+There are Three types of people here Local Healthcare Providers, Recipients \& State and Local Public Health Organizations in this Vaccine Management.
+\subsection{Registration}
+Users First need to Register for vaccination through Aadhaar or Mobile Number. Where user can add at maximum four recipients for each registration. Here user need to add their Name and DOB.
+
+\subsection{Slot Selection}
+Portal displays vaccines available for each date age wise. And User can select slots for vaccination based on availability. User can search based on date and age.
+
+ \subsection{FAQ's}
+Page where user can ask their queries and get answers.
+
+\subsection{Dashboard}
+Where the details of vaccines administered can be seen. And here users can find Details, efficiency and need of vaccine.
+\subsection{Client}
+Here Client(Healthcare Provider) keeps Vaccine Availability and Slots details \& Dashboard Details Up to Date. They should keep checking the demand and supply of Vaccines \& contact Health Organization for Vaccine supply if needed.
+\\
+\\
+*The UML Diagrams are not complete.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=90mm,scale=0.5]{fig1.png}}
+\caption{Basic UML Class Diagram}
+\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=110mm,scale=0.5]{fig2.png}}
+\caption{Basic UML Use Case Diagram}
+\label{fig2}
+\end{figure}
+
+\section{Conclusion and Future Work}
+In this work, we demonstrate the proper vaccine management solution and software architecture of a tool to aid mass vaccination management. This may be helpful for developers for creating new applications to aid in Vaccine management. This solution tends to help in proper vaccination without delay.
+These needed some more future work by adding some more sections FAQs for users to get their queries answered \& Details, efficiency and need of vaccine for one's safety. And more details about Number of people vaccinated with one dose and two doses.
+
+\section*{References}
+
+\begin{thebibliography}{00}
+\bibitem{b1} https://www2.deloitte.com/us/en/pages/public-sector/solutions/vaccine-management-system.html
+\bibitem{b2} https://www.accenture.com/us-en/services/public-service/vaccine-management-solution
+\bibitem{b3} https://www.pwc.com/az/en/publications/assets/COVID-19\_Vaccine\_Distribution\_System\_Offering.pdf
+\bibitem{b4} https://www.paho.org/immunization/toolkit/resources/partner-pubs/ebook/Chapter5-Vaccine-Storage-and-Handling.pdf?ua=1
+\bibitem{b5} https://www.ibm.com/in-en/impact/covid-19/vaccine-management
+\bibitem{b6} https://www.infosyspublicservices.com/offerings/vaccine-management-solution.html
+\bibitem{b7} https://www.cowin.gov.in/home
+\end{thebibliography}
+\vspace{16pt}
+
+\end{document}
